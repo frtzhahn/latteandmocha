@@ -1,0 +1,91 @@
+#h21 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+
+body {
+    background: linear-gradient(90deg, pink, rgb(255, 228, 233), rgb(128, 164, 137), rgb(93, 126, 93) );
+    background-size: 200% 200%;
+    animation: changeBackground 10s infinite;
+    transition:  2s ease-in-out; /* Add smooth transition */
+}
+
+@keyframes changeBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.image-container {
+width: 100%;
+height: 450px;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.image-container img {
+width: 10%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+border: 2px solid black;
+transition: all ease-in-out 0.5s;
+margin-top: 20px;
+animation: hoverEffect 2s infinite alternate; /* Auto-apply hover effect */
+}
+
+.image-container img:hover {
+width: 25%;
+}
+
+
+.container {
+width: 100%;
+height: 450px;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.container img {
+width: 10%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+border: 2px solid black;
+transition: all ease-in-out 0.5s;
+margin-top: 20px;
+}
+
+.container img:hover {
+width: 25%;
+}
+
+
+.container-2 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+    
+    .container-2 img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease-in-out 0.5s;
+    margin-top: 20px;
+    }
+    
+    .container-2 img:hover {
+    width: 25%;
+    }
+    
